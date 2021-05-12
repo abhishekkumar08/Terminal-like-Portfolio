@@ -36,10 +36,10 @@ contact.addEventListener("click", () => {
     background: "#00aa00",
     width: "400px",
     height: "400px",
-    top: 150,
+    top: 50,
     right: 50,
     bottom: 50,
-    left: 250,
+    left: 50,
     mount: contactContent,
     onfocus: function () {
       this.setBackground("#00aa00");
@@ -56,10 +56,10 @@ skills.addEventListener("click", () => {
     background: "#00aa00",
     width: "400px",
     height: "400px",
-    top: 250,
+    top: 50,
     right: 50,
     bottom: 50,
-    left: 450,
+    left: 50,
     mount: skillsContent,
     onfocus: function () {
       this.setBackground("#00aa00");
@@ -76,10 +76,10 @@ projects.addEventListener("click", () => {
     background: "#00aa00",
     width: "400px",
     height: "400px",
-    top: 350,
+    top: 50,
     right: 50,
     bottom: 50,
-    left: 650,
+    left: 50,
     mount: projectsContent,
     onfocus: function () {
       this.setBackground("#00aa00");
@@ -96,10 +96,10 @@ experience.addEventListener("click", () => {
     background: "#00aa00",
     width: "400px",
     height: "400px",
-    top: 450,
+    top: 50,
     right: 50,
     bottom: 50,
-    left: 850,
+    left: 50,
     mount: experienceContent,
     onfocus: function () {
       this.setBackground("#00aa00");
