@@ -56,10 +56,10 @@ skills.addEventListener("click", () => {
     background: "#00aa00",
     width: "400px",
     height: "400px",
-    top: 150,
+    top: 250,
     right: 50,
     bottom: 50,
-    left: 250,
+    left: 450,
     mount: skillsContent,
     onfocus: function () {
       this.setBackground("#00aa00");
@@ -76,10 +76,10 @@ projects.addEventListener("click", () => {
     background: "#00aa00",
     width: "400px",
     height: "400px",
-    top: 150,
+    top: 350,
     right: 50,
     bottom: 50,
-    left: 250,
+    left: 650,
     mount: projectsContent,
     onfocus: function () {
       this.setBackground("#00aa00");
@@ -90,17 +90,16 @@ projects.addEventListener("click", () => {
   });
 });
 
-
 experience.addEventListener("click", () => {
   const experienceBox = new WinBox({
-    title: "experience",
+    title: "Experience",
     background: "#00aa00",
     width: "400px",
     height: "400px",
-    top: 150,
+    top: 450,
     right: 50,
     bottom: 50,
-    left: 250,
+    left: 850,
     mount: experienceContent,
     onfocus: function () {
       this.setBackground("#00aa00");
